@@ -8,7 +8,7 @@ const AuthContext = createContext();
 
 const AuthProvider = ({ children }) => {
   
-  const Backend_Url = "http://localhost:3000";
+  const Backend_Url = "https://login-signup-backend-pz7b.onrender.com";
   const [isAdmin, setIsAdmin] = useState(false);
   const navigate = useNavigate();
 
